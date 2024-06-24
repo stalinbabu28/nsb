@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: #fff;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    font-size: 3em;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Paragraph */
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Button */
+button {
+    background: #fff;
+    border: none;
+    padding: 10px 20px;
+    color: #2193b0;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+button:hover {
+    background: #2193b0;
+    color: #fff;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
